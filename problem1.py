@@ -15,9 +15,7 @@ def main():
     employees = read_employees("C:\\Users\\User\\PycharmProjects\\buteel\\employees1.txt")
 
 
-    print("Бүх ажилчид: ")
-    for employee in employees:
-        print(employee.strip())
+
 
 
     retired_employees = []
